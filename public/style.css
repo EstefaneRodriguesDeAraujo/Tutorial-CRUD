@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+input, button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    input, button {
+    width: 100%;
+    }
+   }
